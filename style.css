@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display:flex;
+    flex-direction: column;
+
+}
+
+.header {
+ box-shadow: 0px 4px 10px #dcdcdc;
+ z-index: 1000;
+ background-color: white;
+ border-bottom: 1px solid #f2f2f2;
+ 
+
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 20px
+
+}
+
+.pesquisa {
+    padding: 10px 180px;
+   border: 1px solid #dadce0;
+   border-radius: 30px;
+}
+
+.pesquisa:hover {
+    box-shadow: 0px 3px 8px #dadce0;
+}
+
+.header img {
+    width: 100px;;
+}
+
+.main {
+    background-color:white;
+    flex-grow: 1;
+
+
+}
+
+.main ul {
+    width: 50vw;    
+    list-style: none;
+}
+
+.main ul li {
+    padding: 25px;
+}
+
+.main ul li a {
+    color: #4d5156;
+    ;
+}
+
+.main ul li h1 {
+    color: #1a0dab;
+    font-weight: 500;
+}
+
+.main ul li span {
+    color: #70757a;
+}
+
+
+
+.footer {
+    background-color: #f2f2f2;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+
+    border: 1px solid #dadce0;
+}
+
+.footer ul {
+    display: flex;
+    list-style: none;
+    ;
+}
+
+.footer ul li {
+    margin-right: 20px;;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #70757a;
+}
+
+.footer a:hover {    
+    color: #4d5154;
+}
+
+.welcome{
+    width: 500px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius: 30px;
+    padding: 20px;
+    margin-top: 50px;
+    text-align: center;
+}
